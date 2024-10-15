@@ -1,9 +1,8 @@
 public class Book {
     private String title;
     private Author author;
-    private double price;  // New price attribute
-
-    // Constructor including price
+    private double price;  
+    
     public Book(String title, Author author, double price) {
         this.title = title;
         this.author = author;
