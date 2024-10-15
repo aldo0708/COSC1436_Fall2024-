@@ -9,12 +9,10 @@ public class Book {
         this.author = author;
         this.price = price;
     }
-
-    // Overriding the toString() method
     @Override
     public String toString() {
         return "Book Title: " + title + 
-               "\n" + author.toString() +  // Displaying author's info
-               "\nPrice: $" + price;       // Adding price to the display
+               "\n" + author.toString() +  
+               "\nPrice: $" + price;       
     }
 }
